@@ -13,7 +13,7 @@
 sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 
 # 修改输出文件名
-sed -i 's/IMG_PREFIX:=$(VERSION_DIST_SANITIZED)/IMG_PREFIX:=I225-$(shell date +%Y%m%d)-$(VERSION_DIST_SANITIZED)/g' include/image.mk
+#sed -i 's/IMG_PREFIX:=$(VERSION_DIST_SANITIZED)/IMG_PREFIX:=I225-$(shell date +%Y%m%d)-$(VERSION_DIST_SANITIZED)/g' include/image.mk
 #sirpdboy
 #git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
