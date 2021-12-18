@@ -43,7 +43,9 @@ git clone https://github.com/kiddin9/luci-app-xlnetacc.git package/luci-app-xlne
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
-git clone https://github.com/linkease/istore.git package/istore
+#git clone https://github.com/linkease/istore.git package/istore
 #添加smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+#添加主题
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/Luci-theme-argon
